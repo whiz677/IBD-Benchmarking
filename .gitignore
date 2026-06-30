@@ -1,0 +1,77 @@
+# Large data folders
+data/raw/
+data/processed/
+data/final_benchmark_matrices/
+models/
+embeddings/
+embeddings_final6/
+
+# Old development/archive folders
+src/
+results/
+_archive_pre_6dataset/
+_archive_pre_final6/
+
+# Fine-tuning outputs only
+finetune_models/outputs/
+
+# Large single-cell/data files
+*.h5ad
+*.h5
+*.loom
+*.mtx
+*.npy
+*.npz
+*.csv.gz
+*.tsv.gz
+
+# Model/checkpoint files
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+checkpoint-*/
+checkpoints/
+
+# Tokenized dataset/cache files
+*.arrow
+*.cache
+cache-*.arrow
+dataset_info.json
+state.json
+
+# Python cache/build files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+.conda/
+
+# Jupyter/temporary outputs
+*.log
+*.tmp
+*.bak
+*.swp
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# OneDrive/Office temporary files
+~$*
+~WRL*.tmp
+
+# Optional local-only notes
+.local/
+tmp/
