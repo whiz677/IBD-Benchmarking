@@ -1,0 +1,25 @@
+name: scdiseaseshift_ibd
+channels:
+  - conda-forge
+  - bioconda
+  - pytorch
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - scanpy
+  - anndata
+  - jupyterlab
+  - ipykernel
+  - pytorch
+  - pip:
+      - cellxgene-census
+      - scvi-tools
+      - xgboost
+      - gseapy
+      - transformers

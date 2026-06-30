@@ -1,0 +1,16 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+scanpy
+anndata
+cellxgene-census
+scvi-tools
+xgboost
+gseapy
+transformers
+torch
+jupyterlab
+ipykernel
