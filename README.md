@@ -2,6 +2,8 @@
 This repository contains the code for a single-cell RNA-seq benchmark of disease-transfer representations in inflammatory bowel disease (IBD). The project compares PCA, scVI, scGPT, and Geneformer embeddings for predicting IBD versus control status across intestinal single-cell datasets.
 
 The main goal was to test whether single-cell representations capture transferable IBD-associated biology or whether performance is driven by donor, source-study, tissue, cell-type, or other non-disease structure.
+
+Additional locked external fine-tuning scripts are provided in `finetune_models/`. Large fine-tuned model checkpoints, tokenized datasets, h5ad files, and output artifacts are not included in this repository because of file-size limits.
 ## Repository Structure
 src_final/        Final manuscript-ready analysis scripts
 docs/             Notes, summaries, and project documentation
