@@ -39,7 +39,7 @@ paired model comparisons
 confounder-predictability analysis
 final result collection
 
-##Metrics
+## Metrics
 Primary metrics:
 AUROC
 AUPRC
